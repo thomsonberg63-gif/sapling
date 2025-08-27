@@ -114,7 +114,8 @@ zenoh-protocol = { git = "https://github.com/nitinsingh-meta/zenoh", rev = "9b52
 zenoh-runtime = { git = "https://github.com/nitinsingh-meta/zenoh", rev = "9b525dceb27582395da945c5af0c46a5d926f078" }
 zenoh-util = { git = "https://github.com/nitinsingh-meta/zenoh", rev = "9b525dceb27582395da945c5af0c46a5d926f078" }
 zenohd = { git = "https://github.com/nitinsingh-meta/zenoh", rev = "9b525dceb27582395da945c5af0c46a5d926f078" }
-aws-smithy-runtime = { git = "https://github.com/smithy-lang/smithy-rs", tag = "v1.9.0" }
+aws-smithy-runtime = { git = "https://github.com/smithy-lang/smithy-rs.git", rev = "f6218ab5363e3c06d5583e21292d52c8d63d7490", package = "aws-smithy-runtime" }
+
 
 [workspace]
 members = [
